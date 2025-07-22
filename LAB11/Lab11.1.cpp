@@ -15,7 +15,6 @@ public:
         return message;
     }
 };
-
 bool isValidPassword(const string& password) {
     if (password.length() < 6) 
         return false;
